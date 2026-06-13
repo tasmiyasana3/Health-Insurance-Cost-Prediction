@@ -122,6 +122,19 @@ These features improved the model’s ability to capture:
 - Backward elimination using p-values
 - Assumption testing
 
+### Statistical Validation
+
+The baseline Linear Regression model was evaluated using:
+
+- Variance Inflation Factor (VIF) for multicollinearity assessment
+- Backward elimination based on p-values
+- Residual vs Fitted analysis
+- Q-Q plot analysis
+- Normality assessment of residuals
+- Homoscedasticity verification
+
+This ensured that statistical assumptions were examined before comparing advanced machine learning models.
+
 ### Advanced Models
 - Decision Tree Regressor
 - Random Forest Regressor
@@ -169,6 +182,8 @@ The final selected model balanced:
 - Minimal overfitting
 - Better generalisation on unseen data
 
+The final selected model was chosen after comparing baseline and ensemble models based on prediction accuracy, generalisation performance, interpretability, and business relevance.
+
 ---
 
 ## Business Insights
@@ -205,12 +220,22 @@ The final selected model balanced:
 
 ---
 
-## Author
 
-Tasmiya Sana
+## Model Deployment Readiness
+
+The final model can be used as a decision-support tool for insurance cost estimation. The workflow includes data preprocessing, feature engineering, model validation, and performance monitoring considerations, making it suitable for integration into risk assessment and premium pricing processes.
 
 ---
 
 ## Conclusion
 
 This project demonstrates how Machine Learning and regression modelling can help predict healthcare insurance costs accurately. By identifying important health and lifestyle risk factors, insurance companies can improve premium pricing strategies, enhance operational efficiency, and support fair risk assessment systems.
+
+---
+
+
+## Author
+
+Tasmiya Sana
+
+---
